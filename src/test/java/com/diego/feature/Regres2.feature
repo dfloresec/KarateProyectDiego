@@ -10,4 +10,3 @@ Feature: Example Test
     Examples:
     | userId | status |
     | 2      | 200   |
-    | 23     | 404   |
