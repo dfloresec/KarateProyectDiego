@@ -24,6 +24,6 @@ Feature: JSONPlaceholder API Tests
     When method get
     Then status 200
     And match response.id == 1
-    And match response.title == '#string'
+    And match response.title == 'sunt aut facere repellat provident occaecati excepturi optio reprehenderit'
     And match response.body == '#string'
     And match response.userId == '#number'
