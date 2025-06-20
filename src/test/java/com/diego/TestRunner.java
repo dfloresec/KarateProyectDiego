@@ -33,7 +33,7 @@ public class TestRunner {
 
 
         Results results = Runner.path("src/test/java/com/diego")
-                .tags("@Petsapi").outputCucumberJson(true).parallel(5);
+                .tags("@PlaceholderAPI").outputCucumberJson(true).parallel(5);
 
         String karateOutputPath = "build/karate-reports";
         generateReport(karateOutputPath);
